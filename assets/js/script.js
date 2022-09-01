@@ -35,7 +35,7 @@ const characters = [
 
 const navList = document.querySelector(".nav__list");
 const mainInner = document.querySelector(".main__inner");
-const [firstPage] = characters
+const [firstPage] = characters;
 
 function createContent({name, illustration, general, appearance, personality}) {
     return (
